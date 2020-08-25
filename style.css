@@ -104,6 +104,14 @@ form button {
     padding: 4px 10px;
 }
 
+i.right {
+    margin-left: 5px;
+}
+
+i.left {
+    margin-right: 5px;
+}
+
 ul.songs {
     list-style-image: none;
     padding: 0;
@@ -140,6 +148,10 @@ ul.songs li {
     margin: 15px;
 }
 
+.btn.song {
+    white-space: nowrap;
+}
+
 
 @media (max-width: 500px) {
     form {
@@ -150,4 +162,10 @@ ul.songs li {
     form button {
         font-size: 14px;
     }
+
+    ul {
+        margin: 20px;
+    }
+
+
 }
