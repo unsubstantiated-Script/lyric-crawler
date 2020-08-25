@@ -9,6 +9,7 @@ Challenges faced:
 - Tweaking the design to fit a different look
 - Working with a CSS :after pseudo-class
 - Finding, editing, and implementing a photo that wasn't in the curriculum to suit my stylistic choice
+- Tweaking for mobile first methodologies
 
 ToDos:
 
