@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Raleway&display=swap');
+
+:root {
+    --first-color: #141E26;
+    --second-color: #AAB9BF;
+    --third-color: #A66C4B;
+    --fourth-color: #73503C;
+    --fifth-color: #F2AF88;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--second-color);
+    font-family: 'Raleway', sans-serif;
+    color: var(--first-color);
+    margin: 0;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+
+header {
+    background: url(/images/band-shot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    position: relative;
+    color: var(--first-color);
+}
+
+
+/* Shortcut for an overlay */
+header::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(115, 80, 60, 0.5);
+}
+
+/* this will bring the contents to the top */
+header * {
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    margin: 0 0 30px;
+
+}
