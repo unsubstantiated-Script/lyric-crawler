@@ -163,8 +163,10 @@ ul.songs li {
         font-size: 14px;
     }
 
-    ul {
-        margin: 20px;
+
+    .container {
+
+        width: 90%;
     }
 
 
